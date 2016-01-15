@@ -17,10 +17,12 @@
 		C5EDAD0A816AC3955BBFB7C69D443B67 /* TransactionAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */; };
 		DA46F9911D36A7F93AFA10B04CB22B04 /* Pods-TransactionAnimations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2115CC79F167B36ADCE38F1D56179D6 /* TransactionAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA5919EA1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; };
-		FA5919EB1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; };
+		FA5919EA1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA5919EB1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA5919EC1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */; };
 		FA5919ED1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */; };
+		FA5919EE1C48F9E90029AADA /* TransactionAnimations-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EB59E10BECB7BF7446C2F4EB0D3DB117 /* TransactionAnimations-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA5919EF1C48F9EA0029AADA /* TransactionAnimations-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EB59E10BECB7BF7446C2F4EB0D3DB117 /* TransactionAnimations-prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +260,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5919EF1C48F9EA0029AADA /* TransactionAnimations-prefix.pch in Headers */,
 				F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */,
 				FA5919EB1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */,
 			);
@@ -267,6 +270,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5919EE1C48F9E90029AADA /* TransactionAnimations-prefix.pch in Headers */,
 				AF07F15A191128C79C6B56865A2F6CD6 /* Pods-TransactionAnimations_Example-umbrella.h in Headers */,
 				FA5919EA1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */,
 			);

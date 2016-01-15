@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "TransactionAnimations"
   s.version          = "0.2.0"
-  s.summary          = "A short description of TransactionAnimations."
+  s.summary          = "Custom transaction animations."
 
   s.homepage         = "https://github.com/weylandd/TransactionAnimations"
   s.license          = 'MIT'
