@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27173968CF77252D9E05099982FFDC4D /* Pods-TransactionAnimations_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DFEC1A486A8444A73BD6E12661512B /* Pods-TransactionAnimations_Tests-dummy.m */; };
+		5D231C91BB60F95490B2700C9FEB2483 /* Pods-TransactionAnimations_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B179CA4BCC5201C74A7C196653BF03 /* Pods-TransactionAnimations_Example-dummy.m */; };
+		7E82244F4059584FBD1FBC8F95A16E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		99EFECEEF145D51BA3550459CEF9F42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9F3DC63DC14FB471A0F407EF35DEC3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AF07F15A191128C79C6B56865A2F6CD6 /* Pods-TransactionAnimations_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7349F7388272FFA4EF1F221841CC494D /* Pods-TransactionAnimations_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C580A51F56565EEC03474660D0E524A9 /* TransactionAnimations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 532EC07C38FDC91E6F06212167825955 /* TransactionAnimations.bundle */; };
+		C5EDAD0A816AC3955BBFB7C69D443B67 /* TransactionAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */; };
+		DA46F9911D36A7F93AFA10B04CB22B04 /* Pods-TransactionAnimations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6D5AF1741E5CF2D287A1C5655B8ACF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */; };
+		F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2115CC79F167B36ADCE38F1D56179D6 /* TransactionAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6140F5A8E06B4B234CD653E67F767368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3A40A3A96163FEB379DF6A62AA5BEA;
+			remoteInfo = TransactionAnimations;
+		};
+		BE390DE5868B6852083D26D0B1F90F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83609FF283E483D4510E6E44A34A9BBA;
+			remoteInfo = "TransactionAnimations-TransactionAnimations";
+		};
+		DEB99DE03A7F4A6F82C05C02E37069BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3A40A3A96163FEB379DF6A62AA5BEA;
+			remoteInfo = TransactionAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045FA9CF10C34C2F7C4866288712FE5F /* Pods_TransactionAnimations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionAnimations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141A0D60BD2D897095E3A4F61E2F1637 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B571991C2EADFB845BD2339FD8ED636 /* Pods-TransactionAnimations_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransactionAnimations_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E594EAE132AEE4C0F5A5E76A3967E84 /* Pods-TransactionAnimations_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransactionAnimations_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31D42C6E0C8FB2F68767BFF19313AC45 /* TransactionAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransactionAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347884D248B25757A63335D570E41F02 /* Pods-TransactionAnimations_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransactionAnimations_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3CA51FE1B8B268CF8A7B85B47CEE0D04 /* Pods-TransactionAnimations_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransactionAnimations_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		484445F7561B7388E523DA06CC7DA2B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532EC07C38FDC91E6F06212167825955 /* TransactionAnimations.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionAnimations.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B3147110590EF360E1F601CEAF5044 /* Pods-TransactionAnimations_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransactionAnimations_Tests-resources.sh"; sourceTree = "<group>"; };
+		7349F7388272FFA4EF1F221841CC494D /* Pods-TransactionAnimations_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransactionAnimations_Example-umbrella.h"; sourceTree = "<group>"; };
+		8437B590A8A7621E9F3775E80D84202F /* Pods_TransactionAnimations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionAnimations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8776D55130EF44FE99D893C671FADFA2 /* Pods-TransactionAnimations_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransactionAnimations_Example.modulemap"; sourceTree = "<group>"; };
+		8A26BC505188272FCF6A54679048D188 /* Pods-TransactionAnimations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransactionAnimations_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A2DFEC1A486A8444A73BD6E12661512B /* Pods-TransactionAnimations_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransactionAnimations_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5B179CA4BCC5201C74A7C196653BF03 /* Pods-TransactionAnimations_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransactionAnimations_Example-dummy.m"; sourceTree = "<group>"; };
+		A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransactionAnimations-dummy.m"; sourceTree = "<group>"; };
+		A90854BF48B667DC46DC005A0EBF5F8F /* Pods-TransactionAnimations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransactionAnimations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		AEC258DCA3107B9AD20F10CEF295F09B /* Pods-TransactionAnimations_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransactionAnimations_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransactionAnimations_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2115CC79F167B36ADCE38F1D56179D6 /* TransactionAnimations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransactionAnimations-umbrella.h"; sourceTree = "<group>"; };
+		C84A18255FE5E22082E919E6751223E0 /* Pods-TransactionAnimations_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransactionAnimations_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2531B07474107EB43C5A2FC773C59E /* TransactionAnimations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TransactionAnimations.modulemap; sourceTree = "<group>"; };
+		D89BA935690D69737A9DCB5EDA3F9FE7 /* Pods-TransactionAnimations_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransactionAnimations_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DDA15F6EFA5216C3382CAC3DE2771047 /* Pods-TransactionAnimations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransactionAnimations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8C79155933FDEF573EAAD263E468A87 /* Pods-TransactionAnimations_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TransactionAnimations_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EB59E10BECB7BF7446C2F4EB0D3DB117 /* TransactionAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransactionAnimations-prefix.pch"; sourceTree = "<group>"; };
+		EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransactionAnimations.xcconfig; sourceTree = "<group>"; };
+		F057FB489AC51A25FBE5372467770F4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC3F9E6A1A49E3CB57C808780B8C996 /* Pods-TransactionAnimations_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransactionAnimations_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		258E09670A55AE0E8D74E0F72E802089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EFECEEF145D51BA3550459CEF9F42A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289A5853B730485809676C558DA62FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3DC63DC14FB471A0F407EF35DEC3A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794DFFCE1C99462DE91F2BFA5A8F6F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E82244F4059584FBD1FBC8F95A16E88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92832F16B94DAFEBEA0413E6CFDFD17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0620060AB95CB0187E3C034880C6E68A /* TransactionAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9DBE8D23A1FB5E2E9DEAEBDC3D1B3 /* Pod */,
+				432AD2012398A2741257DAC99B64C5DA /* Support Files */,
+			);
+			name = TransactionAnimations;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		432AD2012398A2741257DAC99B64C5DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				484445F7561B7388E523DA06CC7DA2B3 /* Info.plist */,
+				CF2531B07474107EB43C5A2FC773C59E /* TransactionAnimations.modulemap */,
+				EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */,
+				A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */,
+				EB59E10BECB7BF7446C2F4EB0D3DB117 /* TransactionAnimations-prefix.pch */,
+				C2115CC79F167B36ADCE38F1D56179D6 /* TransactionAnimations-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TransactionAnimations";
+			sourceTree = "<group>";
+		};
+		53CC5AD30AD626252E7A3AB8609C5E31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				900CAC7DBA7730C38168B833F010ADA5 /* Pods-TransactionAnimations_Example */,
+				9CB6D0D37D3117C48F8306FA19963421 /* Pods-TransactionAnimations_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F59827BA0F44562F50171AE76F46AF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0620060AB95CB0187E3C034880C6E68A /* TransactionAnimations */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				5F59827BA0F44562F50171AE76F46AF6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8ABE28B8A26210ABB12004A0AE1428F3 /* Products */,
+				53CC5AD30AD626252E7A3AB8609C5E31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABE28B8A26210ABB12004A0AE1428F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8437B590A8A7621E9F3775E80D84202F /* Pods_TransactionAnimations_Example.framework */,
+				045FA9CF10C34C2F7C4866288712FE5F /* Pods_TransactionAnimations_Tests.framework */,
+				532EC07C38FDC91E6F06212167825955 /* TransactionAnimations.bundle */,
+				31D42C6E0C8FB2F68767BFF19313AC45 /* TransactionAnimations.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900CAC7DBA7730C38168B833F010ADA5 /* Pods-TransactionAnimations_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F057FB489AC51A25FBE5372467770F4A /* Info.plist */,
+				8776D55130EF44FE99D893C671FADFA2 /* Pods-TransactionAnimations_Example.modulemap */,
+				AEC258DCA3107B9AD20F10CEF295F09B /* Pods-TransactionAnimations_Example-acknowledgements.markdown */,
+				1B571991C2EADFB845BD2339FD8ED636 /* Pods-TransactionAnimations_Example-acknowledgements.plist */,
+				A5B179CA4BCC5201C74A7C196653BF03 /* Pods-TransactionAnimations_Example-dummy.m */,
+				E8C79155933FDEF573EAAD263E468A87 /* Pods-TransactionAnimations_Example-frameworks.sh */,
+				3CA51FE1B8B268CF8A7B85B47CEE0D04 /* Pods-TransactionAnimations_Example-resources.sh */,
+				7349F7388272FFA4EF1F221841CC494D /* Pods-TransactionAnimations_Example-umbrella.h */,
+				C84A18255FE5E22082E919E6751223E0 /* Pods-TransactionAnimations_Example.debug.xcconfig */,
+				347884D248B25757A63335D570E41F02 /* Pods-TransactionAnimations_Example.release.xcconfig */,
+			);
+			name = "Pods-TransactionAnimations_Example";
+			path = "Target Support Files/Pods-TransactionAnimations_Example";
+			sourceTree = "<group>";
+		};
+		9CB6D0D37D3117C48F8306FA19963421 /* Pods-TransactionAnimations_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				141A0D60BD2D897095E3A4F61E2F1637 /* Info.plist */,
+				FBC3F9E6A1A49E3CB57C808780B8C996 /* Pods-TransactionAnimations_Tests.modulemap */,
+				2E594EAE132AEE4C0F5A5E76A3967E84 /* Pods-TransactionAnimations_Tests-acknowledgements.markdown */,
+				A90854BF48B667DC46DC005A0EBF5F8F /* Pods-TransactionAnimations_Tests-acknowledgements.plist */,
+				A2DFEC1A486A8444A73BD6E12661512B /* Pods-TransactionAnimations_Tests-dummy.m */,
+				D89BA935690D69737A9DCB5EDA3F9FE7 /* Pods-TransactionAnimations_Tests-frameworks.sh */,
+				66B3147110590EF360E1F601CEAF5044 /* Pods-TransactionAnimations_Tests-resources.sh */,
+				B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */,
+				DDA15F6EFA5216C3382CAC3DE2771047 /* Pods-TransactionAnimations_Tests.debug.xcconfig */,
+				8A26BC505188272FCF6A54679048D188 /* Pods-TransactionAnimations_Tests.release.xcconfig */,
+			);
+			name = "Pods-TransactionAnimations_Tests";
+			path = "Target Support Files/Pods-TransactionAnimations_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0C9DBE8D23A1FB5E2E9DEAEBDC3D1B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1DD72B54AA4FD3D11AB7127A571D655 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D1DD72B54AA4FD3D11AB7127A571D655 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28F744EA13B5A3D72E700E1AFEC988D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80533DA05D3CD9738AA9D1A30C2AD987 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF07F15A191128C79C6B56865A2F6CD6 /* Pods-TransactionAnimations_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DA2E1C58051D187954B91C8FB7CC13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA46F9911D36A7F93AFA10B04CB22B04 /* Pods-TransactionAnimations_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83609FF283E483D4510E6E44A34A9BBA /* TransactionAnimations-TransactionAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9752AF5BBE592B03DDB50DA001DDB647 /* Build configuration list for PBXNativeTarget "TransactionAnimations-TransactionAnimations" */;
+			buildPhases = (
+				55EE9DF917E6BDBBEEF76ED7D81AD37D /* Sources */,
+				92832F16B94DAFEBEA0413E6CFDFD17E /* Frameworks */,
+				23A5FE7340B799A9F6ED5FD6CFDA84CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransactionAnimations-TransactionAnimations";
+			productName = "TransactionAnimations-TransactionAnimations";
+			productReference = 532EC07C38FDC91E6F06212167825955 /* TransactionAnimations.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D3A40A3A96163FEB379DF6A62AA5BEA /* TransactionAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA8EDD8055A53B71A3BE59D447673E5 /* Build configuration list for PBXNativeTarget "TransactionAnimations" */;
+			buildPhases = (
+				F2C5775788AA2324B7EAA019B9C3660F /* Sources */,
+				258E09670A55AE0E8D74E0F72E802089 /* Frameworks */,
+				ED9B2BAE3D996DF8E3402582A2420F82 /* Resources */,
+				28F744EA13B5A3D72E700E1AFEC988D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931A9A8BA0DB8CA4F2EADB088BB614B9 /* PBXTargetDependency */,
+			);
+			name = TransactionAnimations;
+			productName = TransactionAnimations;
+			productReference = 31D42C6E0C8FB2F68767BFF19313AC45 /* TransactionAnimations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4323B7F6C9269F95FD4CF2F035E5421 /* Pods-TransactionAnimations_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D71C3A342AF3532AA32B2CCBA99503 /* Build configuration list for PBXNativeTarget "Pods-TransactionAnimations_Example" */;
+			buildPhases = (
+				14300AFFEFC2048FA9CA21842BBFD469 /* Sources */,
+				794DFFCE1C99462DE91F2BFA5A8F6F73 /* Frameworks */,
+				80533DA05D3CD9738AA9D1A30C2AD987 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F21076CE9146752709682D849657EE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TransactionAnimations_Example";
+			productName = "Pods-TransactionAnimations_Example";
+			productReference = 8437B590A8A7621E9F3775E80D84202F /* Pods_TransactionAnimations_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5A97B7694A7A6CF66BF5A95A4F6FBFF /* Pods-TransactionAnimations_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CAFD9AA0925C7F42654B76B6348F967 /* Build configuration list for PBXNativeTarget "Pods-TransactionAnimations_Tests" */;
+			buildPhases = (
+				08B8F1CC42BD1C9180D023C9482A8334 /* Sources */,
+				7289A5853B730485809676C558DA62FE /* Frameworks */,
+				F6DA2E1C58051D187954B91C8FB7CC13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E2DEFF775CC38C83D31C1F0D37F10B /* PBXTargetDependency */,
+			);
+			name = "Pods-TransactionAnimations_Tests";
+			productName = "Pods-TransactionAnimations_Tests";
+			productReference = 045FA9CF10C34C2F7C4866288712FE5F /* Pods_TransactionAnimations_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8ABE28B8A26210ABB12004A0AE1428F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4323B7F6C9269F95FD4CF2F035E5421 /* Pods-TransactionAnimations_Example */,
+				A5A97B7694A7A6CF66BF5A95A4F6FBFF /* Pods-TransactionAnimations_Tests */,
+				8D3A40A3A96163FEB379DF6A62AA5BEA /* TransactionAnimations */,
+				83609FF283E483D4510E6E44A34A9BBA /* TransactionAnimations-TransactionAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23A5FE7340B799A9F6ED5FD6CFDA84CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9B2BAE3D996DF8E3402582A2420F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C580A51F56565EEC03474660D0E524A9 /* TransactionAnimations.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B8F1CC42BD1C9180D023C9482A8334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27173968CF77252D9E05099982FFDC4D /* Pods-TransactionAnimations_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14300AFFEFC2048FA9CA21842BBFD469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D231C91BB60F95490B2700C9FEB2483 /* Pods-TransactionAnimations_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55EE9DF917E6BDBBEEF76ED7D81AD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C5775788AA2324B7EAA019B9C3660F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6D5AF1741E5CF2D287A1C5655B8ACF /* ReplaceMe.m in Sources */,
+				C5EDAD0A816AC3955BBFB7C69D443B67 /* TransactionAnimations-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F21076CE9146752709682D849657EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransactionAnimations;
+			target = 8D3A40A3A96163FEB379DF6A62AA5BEA /* TransactionAnimations */;
+			targetProxy = 6140F5A8E06B4B234CD653E67F767368 /* PBXContainerItemProxy */;
+		};
+		931A9A8BA0DB8CA4F2EADB088BB614B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TransactionAnimations-TransactionAnimations";
+			target = 83609FF283E483D4510E6E44A34A9BBA /* TransactionAnimations-TransactionAnimations */;
+			targetProxy = BE390DE5868B6852083D26D0B1F90F78 /* PBXContainerItemProxy */;
+		};
+		B7E2DEFF775CC38C83D31C1F0D37F10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransactionAnimations;
+			target = 8D3A40A3A96163FEB379DF6A62AA5BEA /* TransactionAnimations */;
+			targetProxy = DEB99DE03A7F4A6F82C05C02E37069BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2419B713063E1DE297674CB515BC90B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TransactionAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63BC0B08AB450BBFB9ADC343CFDD93F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84A18255FE5E22082E919E6751223E0 /* Pods-TransactionAnimations_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransactionAnimations_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransactionAnimations_Example/Pods-TransactionAnimations_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TransactionAnimations_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81BAE8F9F4DB8C4E5DF76F2A6190E256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransactionAnimations/TransactionAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransactionAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransactionAnimations/TransactionAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TransactionAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A86B7A65BDA27CEA2C81142C19477942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA15F6EFA5216C3382CAC3DE2771047 /* Pods-TransactionAnimations_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransactionAnimations_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransactionAnimations_Tests/Pods-TransactionAnimations_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TransactionAnimations_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE60CE7FFDC444EEE3DD3D4FED489BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TransactionAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C134AB6A62F941D575593F8D3B01B397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A26BC505188272FCF6A54679048D188 /* Pods-TransactionAnimations_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransactionAnimations_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransactionAnimations_Tests/Pods-TransactionAnimations_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TransactionAnimations_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E40D7FCCC1131351D6E7D4572760C8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TransactionAnimations/TransactionAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransactionAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TransactionAnimations/TransactionAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TransactionAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBC3C3FA4E3D6343287B0EE2FBC517FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347884D248B25757A63335D570E41F02 /* Pods-TransactionAnimations_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TransactionAnimations_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TransactionAnimations_Example/Pods-TransactionAnimations_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TransactionAnimations_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA8EDD8055A53B71A3BE59D447673E5 /* Build configuration list for PBXNativeTarget "TransactionAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BAE8F9F4DB8C4E5DF76F2A6190E256 /* Debug */,
+				E40D7FCCC1131351D6E7D4572760C8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9752AF5BBE592B03DDB50DA001DDB647 /* Build configuration list for PBXNativeTarget "TransactionAnimations-TransactionAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2419B713063E1DE297674CB515BC90B4 /* Debug */,
+				BE60CE7FFDC444EEE3DD3D4FED489BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CAFD9AA0925C7F42654B76B6348F967 /* Build configuration list for PBXNativeTarget "Pods-TransactionAnimations_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86B7A65BDA27CEA2C81142C19477942 /* Debug */,
+				C134AB6A62F941D575593F8D3B01B397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D71C3A342AF3532AA32B2CCBA99503 /* Build configuration list for PBXNativeTarget "Pods-TransactionAnimations_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BC0B08AB450BBFB9ADC343CFDD93F6 /* Debug */,
+				EBC3C3FA4E3D6343287B0EE2FBC517FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

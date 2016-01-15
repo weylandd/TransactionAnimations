@@ -1,0 +1,6 @@
+framework module Pods_TransactionAnimations_Example {
+  umbrella header "Pods-TransactionAnimations_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TransactionAnimations {
+  umbrella header "TransactionAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}

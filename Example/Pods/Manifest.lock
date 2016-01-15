@@ -1,0 +1,14 @@
+PODS:
+  - TransactionAnimations (0.1.0)
+
+DEPENDENCIES:
+  - TransactionAnimations (from `../`)
+
+EXTERNAL SOURCES:
+  TransactionAnimations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TransactionAnimations: 49babacace2d9cbd9968dfffa2be795fc3466cc2
+
+COCOAPODS: 0.39.0
