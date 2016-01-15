@@ -6,6 +6,8 @@
 //
 //
 
+#import <UIKit/UIKit.h>
+
 @interface UIView (PositionTransaction)
 
 - (void)positionTransactionWithDuration:(NSTimeInterval)duration
