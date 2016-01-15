@@ -16,8 +16,11 @@
 		C580A51F56565EEC03474660D0E524A9 /* TransactionAnimations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 532EC07C38FDC91E6F06212167825955 /* TransactionAnimations.bundle */; };
 		C5EDAD0A816AC3955BBFB7C69D443B67 /* TransactionAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */; };
 		DA46F9911D36A7F93AFA10B04CB22B04 /* Pods-TransactionAnimations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF6D5AF1741E5CF2D287A1C5655B8ACF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */; };
 		F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2115CC79F167B36ADCE38F1D56179D6 /* TransactionAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA5919EA1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; };
+		FA5919EB1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */; };
+		FA5919EC1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */; };
+		FA5919ED1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +67,6 @@
 		A5B179CA4BCC5201C74A7C196653BF03 /* Pods-TransactionAnimations_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransactionAnimations_Example-dummy.m"; sourceTree = "<group>"; };
 		A5C15961E13DEFD24938BD677E5498C7 /* TransactionAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransactionAnimations-dummy.m"; sourceTree = "<group>"; };
 		A90854BF48B667DC46DC005A0EBF5F8F /* Pods-TransactionAnimations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TransactionAnimations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		AEC258DCA3107B9AD20F10CEF295F09B /* Pods-TransactionAnimations_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TransactionAnimations_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0FA17BDA46ECC93A328BC96A7D43680 /* Pods-TransactionAnimations_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransactionAnimations_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -77,6 +79,8 @@
 		EB59E10BECB7BF7446C2F4EB0D3DB117 /* TransactionAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransactionAnimations-prefix.pch"; sourceTree = "<group>"; };
 		EF783B525E0DAD26B8286E9A0B699353 /* TransactionAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransactionAnimations.xcconfig; sourceTree = "<group>"; };
 		F057FB489AC51A25FBE5372467770F4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PositionTransaction.h"; sourceTree = "<group>"; };
+		FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PositionTransaction.m"; sourceTree = "<group>"; };
 		FBC3F9E6A1A49E3CB57C808780B8C996 /* Pods-TransactionAnimations_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TransactionAnimations_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,7 +245,8 @@
 		D1DD72B54AA4FD3D11AB7127A571D655 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A9A42B9EA061AC1C66B6AD902973A8B1 /* ReplaceMe.m */,
+				FA5919E81C48F4220029AADA /* UIView+PositionTransaction.h */,
+				FA5919E91C48F4230029AADA /* UIView+PositionTransaction.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F50B8D0D6332F2B151F6E185DD9513 /* TransactionAnimations-umbrella.h in Headers */,
+				FA5919EB1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF07F15A191128C79C6B56865A2F6CD6 /* Pods-TransactionAnimations_Example-umbrella.h in Headers */,
+				FA5919EA1C48F4230029AADA /* UIView+PositionTransaction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5919EC1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */,
 				5D231C91BB60F95490B2700C9FEB2483 /* Pods-TransactionAnimations_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6D5AF1741E5CF2D287A1C5655B8ACF /* ReplaceMe.m in Sources */,
+				FA5919ED1C48F4230029AADA /* UIView+PositionTransaction.m in Sources */,
 				C5EDAD0A816AC3955BBFB7C69D443B67 /* TransactionAnimations-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
